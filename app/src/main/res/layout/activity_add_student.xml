@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnorm"
+    android:padding="20dp"
+    tools:context=".AddStudentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Add a New Student"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Name -->
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Name" />
+
+            <!-- Address -->
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Address" />
+
+            <!-- Father's Name -->
+            <EditText
+                android:id="@+id/editTextFatherName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Father's Name" />
+
+            <!-- Father's Mobile Phone Number -->
+            <EditText
+                android:id="@+id/editTextFatherMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Father's Mobile Phone Number"
+                android:inputType="phone" />
+
+            <!-- Father's Occupation -->
+            <EditText
+                android:id="@+id/editTextFatherOccupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Father's Occupation" />
+
+            <!-- Father's Email Address -->
+            <EditText
+                android:id="@+id/editTextFatherEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Father's Email Address"
+                android:inputType="textEmailAddress" />
+
+            <!-- Mother's Name -->
+            <EditText
+                android:id="@+id/editTextMotherName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Mother's Name" />
+
+            <!-- Mother's Mobile Phone Number -->
+            <EditText
+                android:id="@+id/editTextMotherMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Mother's Mobile Phone Number"
+                android:inputType="phone" />
+
+            <!-- Mother's Occupation -->
+            <EditText
+                android:id="@+id/editTextMotherOccupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Mother's Occupation" />
+
+            <!-- Mother's Email Address -->
+            <EditText
+                android:id="@+id/editTextMotherEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Mother's Email Address"
+                android:inputType="textEmailAddress" />
+
+            <!-- Guardin's Name -->
+            <EditText
+                android:id="@+id/editTextGuardianName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Guardian's Name" />
+
+            <!--Guardian's Mobile Phone Number -->
+            <EditText
+                android:id="@+id/editTextGuardianMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Guardian's Mobile Phone Number"
+                android:inputType="phone" />
+
+            <!-- Guardian address -->
+            <EditText
+                android:id="@+id/editTextGuardianAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Guardian's Address" />
+
+            <!-- Guardian's Occupation -->
+            <EditText
+                android:id="@+id/editTextGuardianOccupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Guardian's Occupation" />
+
+            <!-- Land Phone Number -->
+            <EditText
+                android:id="@+id/editTextLandPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Land Phone Number"
+                android:inputType="phone" />
+
+            <!-- Weight -->
+            <EditText
+                android:id="@+id/editTextWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Weight"
+                android:inputType="numberDecimal" />
+
+            <!-- Height -->
+            <EditText
+                android:id="@+id/editTextHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:autofillHints=""
+                android:fontFamily="@font/cabin"
+                android:hint="Height"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/label_grade"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="3"
+                android:fontFamily="@font/cabin"
+                android:gravity="center_vertical"
+                android:maxWidth="80dp"
+                android:text="Guardin's E-mail"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner_email"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/label_grade"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Images of Student -->
+            <Button
+                android:id="@+id/buttonAddImages"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/lightGreen"
+                android:fontFamily="@font/cabin"
+                android:gravity="center"
+                android:text="Add Image"
+                android:textSize="16sp" />
+
+            <!-- Save Button -->
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/lightGreen"
+                android:fontFamily="@font/cabin"
+                android:text="Save"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
